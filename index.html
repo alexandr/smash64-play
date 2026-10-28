@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#000000">
+<title>Smash 64 Recreation</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  #wrap { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); }
+  #wrap canvas { position: absolute; left: 0; top: 0; width: 100%; height: 100%; image-rendering: auto; }
+  #gl { filter: blur(0.35px) saturate(1.05); }
+  #msg { position: absolute; left: 8px; bottom: 6px; color: #888; font: 12px monospace; }
+</style>
+<script src="./vendor/nipplejs.js"></script>
+<script src="./vendor/peerjs.min.js"></script>
+<script type="importmap">{ "imports": { "three": "./vendor/three.module.js" } }</script>
+</head>
+<body>
+<div id="wrap"><canvas id="gl"></canvas><canvas id="ui"></canvas></div>
+<script type="module" src="./src/main.js?v=20261028044438"></script>
+</body>
+</html>
