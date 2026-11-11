@@ -1,0 +1,25 @@
+// Generated index of bonus stage data
+export { default as btp_captain_falcon } from './btp_captain_falcon.js';
+export { default as btp_donkey_kong } from './btp_donkey_kong.js';
+export { default as btp_fox } from './btp_fox.js';
+export { default as btp_jigglypuff } from './btp_jigglypuff.js';
+export { default as btp_kirby } from './btp_kirby.js';
+export { default as btp_link } from './btp_link.js';
+export { default as btp_luigi } from './btp_luigi.js';
+export { default as btp_mario } from './btp_mario.js';
+export { default as btp_ness } from './btp_ness.js';
+export { default as btp_pikachu } from './btp_pikachu.js';
+export { default as btp_samus } from './btp_samus.js';
+export { default as btp_yoshi } from './btp_yoshi.js';
+export { default as btt_captain_falcon } from './btt_captain_falcon.js';
+export { default as btt_donkey_kong } from './btt_donkey_kong.js';
+export { default as btt_fox } from './btt_fox.js';
+export { default as btt_jigglypuff } from './btt_jigglypuff.js';
+export { default as btt_kirby } from './btt_kirby.js';
+export { default as btt_link } from './btt_link.js';
+export { default as btt_luigi } from './btt_luigi.js';
+export { default as btt_mario } from './btt_mario.js';
+export { default as btt_ness } from './btt_ness.js';
+export { default as btt_pikachu } from './btt_pikachu.js';
+export { default as btt_samus } from './btt_samus.js';
+export { default as btt_yoshi } from './btt_yoshi.js';
